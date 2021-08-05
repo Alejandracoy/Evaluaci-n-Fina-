@@ -1,0 +1,78 @@
+
+:root{
+    --fuentePrincipal : 'Raleway', sans-serif;
+}
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;}
+
+body{
+    font-family: var(--fuentePrincipal);
+    background-image: url(./img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}    
+
+.container-first{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 9rem 1rem;
+    color: white;
+}
+
+.name{
+    font-size: 2rem;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.container-second{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    }
+
+.title{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+h2{
+    margin: 0%;
+    text-transform: uppercase;
+    font-size: 10rem;
+}
+.button{
+    margin-top: 3rem;
+    margin-left: 10rem;
+    text-transform: uppercase;
+    background-color: rgb(111, 33, 212);
+    width: 13rem;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+
+a:hover{
+    padding: 0.5rem 0.5rem;
+    color: gray;
+    background-color: rgb(241, 234, 234);
+    opacity: 0.6;
+  transition: 0.3s;
+    
+}
+.button:hover{
+    background-color: rgb(170, 125, 228) ;
+    opacity: 0.6;
+    transition: 0.3s;
+    width:13rem ;
+}
